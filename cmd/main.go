@@ -40,10 +40,18 @@ func init() {
 	proxies = proxy.GetProxyIPList()
 
 	// init boltdb.
-	_, err := os.Create(visitDBName)
+	_, err := os.Stat(visitDBName)
 	if err != nil {
-		log.ErrLog(fmt.Sprintf("Create visited db file[%s] with an error: %s", visitDBName, err.Error()))
+		if os.IsNotExist(err) {
+			_, err := os.Create(visitDBName)
+			if err != nil {
+				log.ErrLog(fmt.Sprintf("Create visited db file[%s] with an error: %s", visitDBName, err.Error()))
+			}
+
+		}
 	}
+	// create bucket in boltdb database
+	_ = mybolt.AddKeyValueonBolt(visitDBName, visitedBucketName, "1", "1")
 }
 
 func main() {
