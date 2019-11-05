@@ -1,0 +1,17 @@
+2019-11-02 17:13:51 - [Debug] Start.
+2019-11-02 17:13:51 - [Debug] Visiting https://book.douban.com/subject/27169753/
+2019-11-02 17:13:54 - [Debug] Visit url:  https://book.douban.com/subject/27169753/
+2019-11-02 17:15:58 - [Debug] Start.
+2019-11-02 17:15:58 - [Debug] Visiting https://book.douban.com/subject/27169753/
+2019-11-02 17:16:00 - [Debug] Visit url:  https://book.douban.com/subject/27169753/
+2019-11-02 17:16:00 - [Error] InsertData statment: Error 1264: Out of range value for column 'doubanscore' at row 1,with an error: 
+2019-11-02 17:20:13 - [Debug] Start.
+2019-11-02 17:20:13 - [Debug] Visiting https://book.douban.com/subject/27169753/
+2019-11-02 17:20:15 - [Debug] Visit url:  https://book.douban.com/subject/27169753/
+2019-11-02 17:20:15 - [Error] InsertData statment: Error 1264: Out of range value for column 'doubanscore' at row 1,with an error: 
+2019-11-02 17:22:17 - [Debug] Start.
+2019-11-02 17:22:17 - [Debug] Visiting https://book.douban.com/subject/27169753/
+2019-11-02 17:22:18 - [Debug] Visit url:  https://book.douban.com/subject/27169753/
+2019-11-02 17:22:18 - [Error] InsertData statment: Error 1062: Duplicate entry '' for key 'PRIMARY',with an error: 
+2019-11-02 18:55:12 - [Debug] Start.
+2019-11-02 18:55:12 - [Debug] Visiting https://book.douban.com/subject/27169753/
