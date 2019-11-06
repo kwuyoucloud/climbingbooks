@@ -18,3 +18,9 @@ build:
 
 clean:
 	@rm $(GOFILE)
+
+gitpush:
+	# will get comment from args
+	@git add *
+	@git commit -m 'args'
+	@git push origin master
